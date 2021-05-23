@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <PackageVersion>0.0.1</PackageVersion>
+        <Title>PE Version Info</Title>
+        <Authors>Deltics (Jolyon Direnko-Smith)</Authors>
+        <Description>Provides information from a VERSIONINFO resource in a Windows PE (Portable Executable) image loaded directly from a stream.  Making no use of native Apis, this package works on any .net standard supported platform.  NOTE: This package currenly only supports VERSIONINFO resource data and does not currently support CLR metadata in .net assembly images.</Description>
+        <Copyright>(c)2021 Jolyon Direnko-Smith</Copyright>
+        <Company>Deltics</Company>
+        <AssemblyVersion>0.0.1</AssemblyVersion>
+        <FileVersion>0.0.1</FileVersion>
+        <PackageProjectUrl>https://github.com/deltics/Deltics.PeVersionInfo</PackageProjectUrl>
+        <PackageLicenseUrl>BSD-3-Clause-Attribution</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/deltics/Deltics.PeVersionInfo</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Deltics.PeResourceInfo" Version="0.0.1" />
+    </ItemGroup>
+
+</Project>
